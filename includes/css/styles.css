@@ -1,0 +1,201 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+    text-align: center;
+    margin: 0 0 20px;
+}
+#reduce-image-size {
+    width: 80px;
+    height: 60px;
+}
+.color-change {
+    color: darkblue;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.well .page-header {
+    margin-top: 0;
+}
+.well .page-header h1 {
+    margin-top: 0;
+}
+.tabbable img.thumbnail {
+    margin :0 20px 10px 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput {
+    width: 200px; 
+}
+.navbar-brand {
+     padding: 13px 15px;
+}
+#align-proper {
+    margin-top: 20px;
+}
+.nav-color {
+    background-color: #212529;
+    color: rgb(223, 35, 82);
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel {
+    margin-top: 60px;
+}
+.carousel-caption {
+    font-size: 24px;
+}
+.carousel-caption h4 {
+    font-size: 32px;
+}
+#mycarousel .item {
+    height: 400px;
+}
+#slide1 {
+    background: url('../../images/vision.jpg') top center no-repeat;
+    background-size: 100%;
+}
+#slide2 {
+    background: url('../../images/mission.png') top center no-repeat;
+    background-size: 100% 100%;
+}
+#slide3 {
+    background: url('../../images/objectives.jpg') top center no-repeat;
+    background-size: 100% 100%;
+}
+.pull-center {
+    text-align: center;
+}
+.fix-image-size {
+    width: 60%;
+    height: 200px;
+    margin-left:15%;
+}
+.text-justify {
+    margin-top: 20px;
+    text-align: justify;
+}
+.align-to-margin {
+    margin-bottom: 0px;
+}
+#features {
+    display: flex;
+    align-items: stretch;
+}
+#features article {
+    flex: 1;
+}
+.color-header {
+    background-color: lightgoldenrodyellow;
+}
+.organise {
+    border: 1px solid darkgrey;
+}
+.reduce-tab-size {
+    height: 300px;
+    width: 300px;
+}
+.small-padding {
+    padding: 10px;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    .fix-image-size {
+        width: 50%;
+    }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #mycarousel .item {
+        height: 310px;
+    }
+    #slide1 {
+        background: url('../../images/vision.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/mission.png') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/objectives.jpg') top center no-repeat;
+    }
+    .carousel-caption {
+        font-size: 16px;
+    }
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
+	#slide1,
+    #slide2,
+    #slide3 {
+        background-size: 100% 100%;
+    }
+    .fix-image-size {
+        width: 30%;
+        margin-left: 35%;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #mycarousel .item {
+        height: 500px;
+    }
+    #slide1 {
+        background: url('../../images/vision.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/mission.png') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/objectives.jpg') top center no-repeat;
+    }
+    #slide1,
+    #slide2,
+    #slide3 {
+        background-size: 100%;
+    }
+    .fix-image-size {
+        width: 30%;
+    }
+
+}
