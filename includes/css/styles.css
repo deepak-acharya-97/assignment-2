@@ -123,8 +123,30 @@ body {
 .small-padding {
     padding: 10px;
 }
-
-
+.remove-list-style {
+    list-style-type: none;
+}
+#contact {
+    font-size: 20px;
+}
+footer {
+    background-color: burlywood;
+}
+.bg-color-1 {
+    background-color: azure;
+    margin-top: 10px;
+}
+.border1 {
+    padding: 3px;
+    border: 1px solid blanchedalmond;
+}
+.adjust-image-size {
+    height: 300px;
+    width: 300px;
+}
+.right-margin {
+    border-right: 2px solid aqua;
+}
 
 /* --------------------------------------
    Global Styles
@@ -139,11 +161,15 @@ body {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
     .fix-image-size {
-        width: 50%;
+        width: 40%;
+        height: 100px;
+        margin-left: 10%;
+    }
+    #contact {
+        font-size: 14px;
     }
 	
 }
-
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
     #mycarousel .item {
@@ -170,8 +196,15 @@ body {
         background-size: 100% 100%;
     }
     .fix-image-size {
-        width: 30%;
-        margin-left: 35%;
+        width: 60%;
+        height: 150px;
+        margin-left: 25%;
+    }
+    #contact {
+        font-size: 12px;
+    }
+    #reduce-text {
+        font-size: 12px;
     }
 }
 
@@ -195,7 +228,17 @@ body {
         background-size: 100%;
     }
     .fix-image-size {
-        width: 30%;
+        width: 60%;
+    }
+    #contact {
+        font-size: 17px;
+    }
+    .flex-it {
+        display: flex;
+        align-items: stretch;
+    }
+    .flex-it .border1 {
+        flex: 1;
     }
 
 }
