@@ -145,9 +145,23 @@ footer {
     width: 300px;
 }
 .right-margin {
-    border-right: 2px solid aqua;
+    padding-left: 5%;
+    padding-top: 5%;
 }
-
+.align-center {
+    text-align: center;
+}
+.adjust-team-image {
+    width: 200px;
+    height: 200px;
+}
+.small-image {
+    height: 40px;
+    width: 40px;
+}
+.img-padding {
+    padding-top: 7px;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -172,6 +186,17 @@ footer {
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    .reduce-tab-size {
+        height: 200px;
+        width: 200px
+    }
+    .font-reduce {
+        font-size: 12px;
+    }
+    .adjust-image-size {
+        height: 200px;
+        width: 200px;
+    }
     #mycarousel .item {
         height: 310px;
     }
