@@ -172,6 +172,9 @@ footer .row {
 .margin-width {
     padding: 30px;
 }
+.to-uppercase {
+    text-transform: uppercase;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
